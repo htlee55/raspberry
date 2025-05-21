@@ -8,7 +8,7 @@ import numpy as np
 import cv2
 from picamera2 import Picamera2, Preview
 import time
-from posedetection2 import PoseDetection
+from posedetection import PoseDetection
 from libcamera import controls
 
 SCREEN_WIDTH = 1920
